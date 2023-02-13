@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type d -minddepth 1 -not -path './../*' | wc -l
